@@ -21,7 +21,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:weightSum="3">
+                android:weightSum="3"
+                android:background="@drawable/borde">
                 <!--Registro-->
                 <LinearLayout
                     android:id="@+id/llreservas"
@@ -29,7 +30,7 @@
                     android:layout_height="144dp"
                     android:layout_margin="2dp"
                     android:layout_weight="1"
-                    android:background="@color/colorPinkRose"
+                    android:background="@color/colorWhite"
                     android:orientation="vertical">
 
                     <ImageView
@@ -38,7 +39,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="20dp"
                         android:src="@drawable/ic_icon_reservas"
-                        android:tint="@color/colorWhite" />
+                        android:tint="#000000" />
 
                     <TextView
                         android:id="@+id/tvReservas"
@@ -61,7 +62,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:weightSum="3">
+                android:weightSum="3"
+                android:background="@drawable/borde">
 
                 <!--Implementos deportivos-->
                 <LinearLayout
@@ -70,7 +72,7 @@
                     android:layout_height="144dp"
                     android:layout_margin="2dp"
                     android:layout_weight="1"
-                    android:background="@color/colorGrass"
+                    android:background="@color/colorWhite"
                     android:orientation="vertical">
 
                     <ImageView
@@ -79,7 +81,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="20dp"
                         android:src="@drawable/ic_icon_implementos"
-                        android:tint="@color/colorWhite" />
+                        android:tint="#000000" />
 
                     <TextView
                         android:id="@+id/tvLogin"
@@ -104,7 +106,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:weightSum="3">
+                android:weightSum="3"
+                android:background="@drawable/borde">
 
                 <LinearLayout
                     android:id="@+id/llcursos"
@@ -112,7 +115,7 @@
                     android:layout_height="144dp"
                     android:layout_margin="2dp"
                     android:layout_weight="1"
-                    android:background="@color/colorPrimary"
+                    android:background="@color/colorWhite"
                     android:orientation="vertical">
 
                     <ImageView
@@ -121,7 +124,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="20dp"
                         android:src="@drawable/ic_icon_cursos"
-                        android:tint="@color/colorWhite" />
+                        android:tint="#000000" />
 
                     <TextView
                         android:id="@+id/tvEventos"
@@ -145,7 +148,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:weightSum="3">
+                android:weightSum="3"
+                android:background="@drawable/borde">
                 <!--Horario Piscina-->
                 <LinearLayout
                     android:id="@+id/llpiscina"
@@ -153,7 +157,7 @@
                     android:layout_height="144dp"
                     android:layout_margin="2dp"
                     android:layout_weight="1"
-                    android:background="@color/colorAqua"
+                    android:background="@color/colorWhite"
                     android:orientation="vertical">
 
                     <ImageView
@@ -162,7 +166,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="20dp"
                         android:src="@drawable/ic_icon_piscina"
-                        android:tint="@color/colorWhite" />
+                        android:tint="#000000" />
 
                     <TextView
                         android:id="@+id/tvDeportes"
@@ -195,7 +199,7 @@
                     android:layout_height="144dp"
                     android:layout_margin="2dp"
                     android:layout_weight="1"
-                    android:background="@color/colorGrapeFruit"
+                    android:background="@color/colorWhite"
                     android:orientation="vertical">
 
                     <ImageView
@@ -204,7 +208,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="20dp"
                         android:src="@drawable/ic_icon_cuenta"
-                        android:tint="@color/colorWhite" />
+                        android:tint="#000000" />
 
                     <TextView
                         android:id="@+id/tvAbout"
