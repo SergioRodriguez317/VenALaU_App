@@ -2,6 +2,7 @@
 <resources>
     <color name="colorPrimary">#cefaab0c</color>
     <color name="colorPrimaryDark">#faab0c</color>
+    <color name="colorClear">#64faab0c</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorWhite">#ffffff</color>
     <color name="colorGrapeFruit">#ED5565</color>
@@ -22,4 +23,5 @@
     <color name="colorAquaDark">#3BAFDA</color>
     <color name="colorPinkRose">#EC87C0</color>
     <color name="colorPinkRoseDark">#D770AD</color>
+
 </resources>
