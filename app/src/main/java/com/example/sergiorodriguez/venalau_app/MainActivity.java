@@ -60,5 +60,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
     }
+    /*public void OnClickBotonAdd(View v) {
+        Intent intencion = new Intent(getApplicationContext(), EventosActivity.class);
+
+        startActivity(intencion);
+    }*/
 }

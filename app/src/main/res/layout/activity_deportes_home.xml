@@ -50,7 +50,7 @@
                         android:padding="8dp"
                         android:text="Reservas"
                         android:textAlignment="center"
-                        android:textColor="@color/colorWhite"
+                        android:textColor="@android:color/white"
                         android:textSize="24sp" />
 
                 </LinearLayout>
@@ -92,7 +92,7 @@
                         android:padding="8dp"
                         android:text="Implementos Deportivos"
                         android:textAlignment="center"
-                        android:textColor="@color/colorWhite"
+                        android:textColor="@android:color/white"
                         android:textSize="24sp" />
 
                 </LinearLayout>
@@ -135,7 +135,7 @@
                         android:padding="8dp"
                         android:text="Cursos Promocionales"
                         android:textAlignment="center"
-                        android:textColor="@color/colorWhite"
+                        android:textColor="@android:color/white"
                         android:textSize="24sp" />
 
                 </LinearLayout>
@@ -177,7 +177,7 @@
                         android:padding="8dp"
                         android:text="Horario Piscina"
                         android:textAlignment="center"
-                        android:textColor="@color/colorWhite"
+                        android:textColor="@android:color/white"
                         android:textSize="24sp" />
 
                 </LinearLayout>
@@ -219,7 +219,7 @@
                         android:padding="8dp"
                         android:text="Estado de cuenta"
                         android:textAlignment="center"
-                        android:textColor="@color/colorWhite"
+                        android:textColor="@android:color/white"
                         android:textSize="24sp" />
 
 

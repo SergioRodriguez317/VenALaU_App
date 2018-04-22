@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#cefaab0c</color>
+    <color name="colorPrimary">#000c14fa</color>
     <color name="colorPrimaryDark">#faab0c</color>
     <color name="colorClear">#64faab0c</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorWhite">#ffffff</color>
+    <color name="colorWhite">#00ffffff</color>
     <color name="colorGrapeFruit">#ED5565</color>
     <color name="colorGrapeFruitDark">#DA4453</color>
     <color name="colorBitterSweet">#FC6E51</color>

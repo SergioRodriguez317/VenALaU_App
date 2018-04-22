@@ -79,6 +79,18 @@
             android:textColor="#000"
             android:textSize="30sp" />
 
+        <TextView
+            android:id="@+id/txtEvento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/txtFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite" />
+
 
     </LinearLayout>
 

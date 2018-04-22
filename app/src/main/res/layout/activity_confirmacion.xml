@@ -42,23 +42,28 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nombre"/>
+            android:hint="Nombre"
+            android:editable="false"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="ID Institucional"/>
+            android:hint="ID Institucional"
+            android:editable="false"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Fecha"/>
+            android:hint="Fecha"
+            android:editable="false"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Hora"/>
+            android:hint="Hora"
+            android:editable="false"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Lugar"/>
+            android:hint="Lugar"
+            android:editable="false"/>
 
         <Button
             android:layout_marginTop="40dp"
