@@ -15,7 +15,7 @@ import java.util.List;
 
 public class ModeloEventos {
 
-    private String BASE_URL = "http://venalau.azurewebsites.net/api/eventos/";
+    private String BASE_URL = "https://mascotasu.azurewebsites.net/api/datos/";
     private RestTemplate restTemplate = new RestTemplate();
 
     public List<Evento> findAll(){

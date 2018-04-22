@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
-
+            <!--
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -65,7 +65,21 @@
 
                 </LinearLayout>
             </ScrollView>
+            -->
+            <ListView
+                android:id="@+id/lvImplementos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
         </LinearLayout>
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/txtIdImplemento"
+        android:layout_width="1dp"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:id="@+id/txtDeporte"
+        android:layout_width="1dp"
+        android:layout_height="1dp" />
 </android.support.constraint.ConstraintLayout>

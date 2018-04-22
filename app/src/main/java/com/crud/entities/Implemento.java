@@ -25,4 +25,5 @@ public class Implemento implements Serializable {
     public void setDeporte(String deporte) {
         Deporte = deporte;
     }
+
 }

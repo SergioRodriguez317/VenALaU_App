@@ -32,8 +32,7 @@ public class EventoAdapter extends ArrayAdapter<Evento>{
 
     @NonNull
     @Override
-    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent)
-    {
+    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         LayoutInflater layoutInflater = LayoutInflater.from(context);
         View view = layoutInflater.inflate(R.layout.activity_detalle_evento, parent, false);
 
@@ -42,9 +41,9 @@ public class EventoAdapter extends ArrayAdapter<Evento>{
         textViewNombre.setText(evento.getNombre());
         textViewNombre.setTextColor(Color.RED);
 
-        /*TextView textViewApellido = view.findViewById(R.id.tx);
-        textViewApellido.setText(evento.getApellido());
-        textViewApellido.setTextColor(Color.RED);*/
+        TextView textViewApellido = view.findViewById(R.id.txtFecha);
+        textViewApellido.setText(evento.getLugar());
+        textViewApellido.setTextColor(Color.RED);
 
         return  view;
     }
@@ -71,11 +70,10 @@ public class EventoAdapter extends ArrayAdapter<Evento>{
         textViewNombre.setTextColor(Color.BLACK);
 
         TextView textViewFecha = view.findViewById(R.id.txtFecha);
-        textViewFecha.setText(eventos.getLugar());
+        textViewFecha.setText(eventos.getApellido());
         textViewFecha.setTextColor(Color.BLACK);
 
         return  view;
     }*/
-
 }
 
