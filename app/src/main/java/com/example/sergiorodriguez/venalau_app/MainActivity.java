@@ -38,13 +38,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        llEventos.setOnClickListener(new View.OnClickListener() {
+        /*llEventos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent =new Intent(MainActivity.this,EventosActivity.class);
                 startActivity(intent);
             }
-        });
+        });*/
         llDeportes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -62,9 +62,9 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    /*public void OnClickBotonAdd(View v) {
+    public void OnClickBotonAdd(View v) {
         Intent intencion = new Intent(getApplicationContext(), EventosActivity.class);
 
         startActivity(intencion);
-    }*/
+    }
 }

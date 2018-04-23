@@ -27,7 +27,7 @@ public class EventosActivity extends AppCompatActivity {
             setContentView(R.layout.activity_eventos);
             List<Evento> datos = new HttpRequestDataList().execute().get();
             ListViewDatos = findViewById(R.id.lvEventos);
-            //ListViewDatos.setAdapter(new EventoAdapter(datos, getApplicationContext()));
+            ListViewDatos.setAdapter(new EventoAdapter(datos, getApplicationContext()));
 
 
 

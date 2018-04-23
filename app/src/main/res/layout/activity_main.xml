@@ -125,6 +125,7 @@
                     android:layout_margin="2dp"
                     android:layout_weight="1"
                     android:background="@android:color/white"
+                    android:onClick="OnClickBotonAdd"
                     android:orientation="vertical">
 
                     <ImageView
