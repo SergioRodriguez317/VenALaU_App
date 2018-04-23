@@ -39,38 +39,52 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <EditText
+            android:id="@+id/txtNombreRegistro"
             android:layout_width="350dp"
             android:layout_height="50dp"
-            android:hint="Nombre"/>
+            android:hint="Nombre" />
+
         <EditText
+            android:id="@+id/txtApellidoRegistro"
             android:layout_width="350dp"
             android:layout_height="50dp"
-            android:hint="Apellido"/>
+            android:hint="Apellido" />
+
         <EditText
+            android:id="@+id/txtIDRegistro"
             android:layout_width="350dp"
             android:layout_height="50dp"
-            android:hint="ID Institucional"/>
+            android:hint="ID Institucional" />
+
         <EditText
+            android:id="@+id/txtCorreoRegistro"
             android:layout_width="350dp"
             android:layout_height="50dp"
-            android:hint="Correo"/>
+            android:hint="Correo" />
+
         <EditText
+            android:id="@+id/txtContraseñaRegistro"
             android:layout_width="350dp"
             android:layout_height="50dp"
             android:hint="Contraseña"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword" />
+
         <EditText
+            android:id="@+id/txtConfirmarRegistro"
             android:layout_width="350dp"
             android:layout_height="50dp"
             android:hint="Confirmar Contraseña"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword" />
 
         <Button
+            android:id="@+id/btnRegistrarse"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:background="@drawable/buttonstylegreen"
+            android:onClick="OnClickbtnRegistrarse"
             android:text="Registrarse"
             android:textColor="#fff" />
 
